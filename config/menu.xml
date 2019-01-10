@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menus>
+	<menu name="menuBar" value="主菜单" type="mainMenu" enable="true"
+		class="">
+		<items name="file" value="文件" class="" icon="">
+			<items name="new" value="新建连接" class="main.MouseOnClick" icon="imgs/newFile">
+			</items>
+			<items name="split" />
+			<items name="exit" value="退出" class="">
+			</items>
+		</items>
+		<items name="function" value="功能" class="main.MouseOnClick" icon="imgs/newFile">
+			<items name="new" value="数据迁移" class="main.MouseOnClick" icon="imgs/newFile">
+			</items>
+			<items name="exp" value="导入导出数据" class="main.MouseOnClick" icon="imgs/newFile">
+			</items>
+			<items name="session" value="执行计划" class="main.MouseOnClick" icon="imgs/newFile">
+			</items>
+		</items>
+		<items name="window" value="窗口" class="main.MouseOnClick" icon="imgs/newFile">
+			<items name="preferences" value="首选项" class="com.view.system.perferenc.listenner.PreferencesListener" icon="imgs/newFile">
+			</items>
+		</items>
+	</menu>
+	<menu name="dataBase" value="数据库操作" type="popupMenu" enable="true"
+		class="com.ui.tree.PopMenuTreeListenner">
+		<items name="connection" value="连接" class="" icon="/imgs/newFile.png" />
+		<items name="close" value="断开连接" class=""></items>
+		<items name="delete" value="删除" class=""></items>
+		<items name="refersh" value="刷新" class="">
+		</items>
+
+	</menu>
+	
+	<menu name="databaseOther" value="对数据库其他操作" type="popupMenu"
+		enable="true" class="com.view.sqloperate.listenner.ScriptMenu">
+		<items name="select" value="SELECT" class="" icon="/imgs/newFile.png" />
+		<items name="edit" value="编辑" class="" icon="/imgs/newFile.png" />
+		<items name="open" value="重命名" class="" icon="/imgs/newFile.png" />
+		<items name="refersh" value="刷新" class=""/>
+		<items name="script" value="脚本" class=""/>
+		<items name="delete" value="删除" class=""/>
+	</menu>
+
+	<menu name="connection" value="数据库操作弹出菜单" type="popupMenu" enable="true"
+		class="">
+		<items name="newConnection" value="新建数据库连接" class="com.view.sqloperate.listenner.CreateConnectionInfo" icon="/imgs/newFile.png">
+		
+		</items>
+		<items name="connectionAll" value="连接所有数据库" class="" />
+		<items name="closeAll" value="断开所有连接" class="" />
+	</menu>
+	<menu name="toolBarFile" value="菜单" type="popupMenu" enable="true" class="">
+		<items name="new" value="新建" class="com.ui.menu.listenner.ToolMenuAddListenner" icon="/imgs/tab/addtab.png" />
+		<items name="open" value="执行语句" class="com.ui.menu.listenner.ToolMenuExcuteListenner" icon="/imgs/menu/execute.png" />
+	</menu>
+	<menu name="resultBar" value="结果集编辑按钮" type="popupMenu" enable="true" class="">
+		<items name="add" value="添加" class="com.ui.menu.listenner.OperateResultListener" icon="/imgs/page/add.png" />
+		<items name="edit" value="修改" class="com.ui.menu.listenner.OperateResultListener" icon="/imgs/page/edit.png" />
+		<items name="delete" value="删除" class="com.ui.menu.listenner.OperateResultListener" icon="/imgs/page/delete.png" />
+		<items name="commit" value="提交" class="com.ui.menu.listenner.OperateResultListener" icon="/imgs/page/commit.png" />
+		<items name="pageup" value="上一页" class="com.ui.menu.listenner.OperateResultListener" icon="/imgs/page/pageup.png" />
+		<items name="pagenext" value="下一页" class="com.ui.menu.listenner.OperateResultListener" icon="/imgs/page/pagenext.png" />
+		<items name="imp" value="导出数据" class="com.ui.menu.listenner.OperateResultListener" icon="/imgs/page/save.gif" />
+		
+	</menu>
+</menus>

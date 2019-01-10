@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<preferenInfo> 
+    <jdbcPaths> 
+        <jdbcPath> 
+            <name>oracle11g</name>  
+            <dataBaseType>Oracle</dataBaseType>  
+            <urlFormat>jdbc:oracle:thin:@ip:port:example</urlFormat>  
+            <driverClass>oracle.jdbc.driver.OracleDriver</driverClass>  
+            <fileUrl>D:\tool\eclipse\workspace\sqltool\src\lib\ojdbc6.jar</fileUrl> 
+        </jdbcPath>  
+        <jdbcPath> 
+            <name>DB2</name>  
+            <dataBaseType>DB2</dataBaseType>  
+            <urlFormat>jdbc:db2://ip:port/example</urlFormat>  
+            <driverClass>com.ibm.db2.jcc.DB2Driver</driverClass>  
+            <fileUrl/> 
+        </jdbcPath>  
+        <jdbcPath> 
+            <name>mysql</name>  
+            <urlFormat>jdbc:mysql://ip:port/example?rewriteBatchedStatements=true</urlFormat>  
+            <driverClass>com.mysql.jdbc.Driver</driverClass>  
+            <fileUrl>D:\tool\eclipse\workspace\sqltool\src\lib\mysql-connector-java-5.1.38.jar</fileUrl> 
+        </jdbcPath>  
+        <jdbcPath> 
+            <name>redis</name>  
+            <urlFormat>jdbc:mysql://ip:port/example?rewriteBatchedStatements=true</urlFormat>  
+            <driverClass>com.mysql.jdbc.Driver</driverClass>  
+            <fileUrl>D:\tool\eclipse\workspace\sqltool\src\lib\jedis-2.8.2.jar</fileUrl> 
+        </jdbcPath> 
+    </jdbcPaths>  
+    <dataBaseTypes> 
+        <dataBaseType> 
+            <name>Oracle</name>  
+            <classUrl>com.dao.imp.OracleTemplate</classUrl> 
+        </dataBaseType>  
+        <dataBaseType> 
+            <name>db2</name>  
+            <classUrl>com.dao.imp.DB2Template</classUrl> 
+        </dataBaseType>  
+        <dataBaseType> 
+            <name>redis</name>  
+            <classUrl>com.dao.imp.RedisTemplate</classUrl> 
+        </dataBaseType>  
+        <dataBaseType> 
+            <name>redis-sentinelPool</name>  
+            <classUrl>com.dao.imp.RedisTemplate</classUrl> 
+        </dataBaseType>  
+        <dataBaseType> 
+            <name>mysql</name>  
+            <classUrl>com.dao.imp.MySqlTemplate</classUrl> 
+        </dataBaseType> 
+    </dataBaseTypes> 
+</preferenInfo>

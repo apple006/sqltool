@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataBaseTree name="Connections" ico="/imgs/dataBaseImgs/nologindataBases.gif">
+		<proper name="Database" ico="/imgs/dataBaseImgs/nologiindatabse.gif"  do="com.control.doaction.tree.DoTreeNodeAction">
+			<doleft name="Table" ico="/imgs/dataBaseImgs/table.gif" do="com.control.doaction.tree.DoTreeTableAction"></doleft>
+			<doleft name="View" ico="/imgs/dataBaseImgs/view.gif" />
+			<doleft name="TableSpace" ico="/imgs/dataBaseImgs/tablespace.png" />
+			<doleft name="Indexes" ico="/imgs/dataBaseImgs/index.gif" />
+			<doleft name="Function" ico="/imgs/dataBaseImgs/function.gif" />
+			<doleft name="Procedure" ico="/imgs/dataBaseImgs/procedures.gif" />
+			<doleft name="Packages" ico="/imgs/dataBaseImgs/package.gif" />
+			<doleft name="Package Bodies" ico="/imgs/dataBaseImgs/package_bodies.gif" />
+			<doleft name="Object Types" ico="/imgs/dataBaseImgs/table.gif" />
+			<doleft name="Database Links" ico="/imgs/dataBaseImgs/dataBseLinks.gif" />
+			<doleft name="DBA" ico="/imgs/dataBaseImgs/table.gif">
+				<doleft name="Users" ico="" />
+				<doleft name="table" ico="" /> 
+			</doleft>
+		</proper>
+
+</dataBaseTree>

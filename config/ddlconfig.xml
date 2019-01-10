@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ddls name="配置" >
+	<ddl name="orcl">
+		<script name="VIEW" >SELECT dbms_metadata.get_ddl('VIEW','VIEW_NAME') TEXT FROM DUAL</script>
+		<script name="TABLE" >SELECT dbms_metadata.get_ddl('TABLE','TABLE_NAME') TEXT FROM DUAL</script>
+		<script name="TABLESPACE_NAME" >SELECT TABLESPACE_NAME FROM USER_TABLESPACES</script>
+		<script name="TABLESPACE" >SELECT dbms_metadata.get_ddl('TABLESPACE','TABLESPACE_NAME') TEXT FROM DUAL</script>
+		<script name="CREATETIME" >select object_name,created from user_objects where object_name=upper('EMP')</script>
+		<script name="CREATETIME" >select sum(bytes)/(1024*1024) as "size(M)" from user_segments where segment_name=upper('EMP')</script>
+		<script name="SESSIONS" >SELECT SERIAL# serial, sid sessionid,STATUS status,  USERNAME ,OSUSER osuser , MACHINE machine,type from  v$session</script>
+		<script name="PAGE_SIZE" > SELECT * FROM (TABLE_NAME) TABLE_NAME$</script>
+		<script name="TABLES" > select * from all_tab_comments </script>
+		<script name="SEQUENCE" >select OBJECT_NAMWE from user_objects ubs where ubs.OBJECT_TYPE='SEQUENCE' </script>
+		
+	</ddl>
+	<ddl name="db2">
+		<script name="VIEW" >SELECT TEXT FROM syscat.views WHERE   viewname='VIEW_NAME'</script>
+		<script name="TABLE">SELECT dbms_metadata.get_ddl('TABLE','TABLE_NAME') TEXT FROM DUAL </script>
+		<script name="TABLESPACE_NAME" >SELECT VIEWNAME TABLESPACE_NAME FROM syscat.views  WHERE OWNER  &lt;&gt;  'SYSIBM'</script>
+		<script name="PAGE_SIZE" > SELECT * FROM (TABLE_NAME) TABLE_NAME$</script>
+		
+	</ddl>
+	<ddl name="mysql">
+		<script name="VIEW" >show create table VIEW_NAME  </script>
+		<script name="TABLE">show create table TABLE_NAME </script>
+		<script name="PAGE_SIZE" >TABLE_NAME  LIMIT 0,PAGE_SIZE</script>
+		<script name="TABLESPACE_NAME" ></script>
+		<script name="SESSIONS" >show processlist</script>
+		
+	</ddl>
+</ddls>
+ 	

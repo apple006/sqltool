@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<preperences name="配置" ico=""  do="" view="">
+		<preperenc name="JDBC" ico=""  do="" view="com.view.system.perferenc.JdbcPathPanel"/>
+		<preperenc name="常规" ico=""  do="" view="">
+					<preperenc name="TEXTFONT" ico=""  do="" view="com.view.system.perferenc.JFontChooser"/>
+					<preperenc name="缓存量设置" ico=""  do="" view="com.view.system.perferenc.CathSize"/>
+		</preperenc>
+		
+</preperences>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE unspecified PUBLIC "//UNKNOWN/" "unknown.dtd">
+<!--  DDL DML 语句适配配置文件      -->
+<ddsql>
+	<database type="oracle">
+		<selTables>select * from </selTable>
+	</database>
+</ddsql>
+

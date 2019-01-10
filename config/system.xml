@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<preperences name="配置" ico=""  do="" view="">
+		<preperenc name="jdbcPath" ico="/imgs/query.png"  do="" view="com.view.system.perferenc.JdbcPathPanel"/>
+		<preperenc name="常规" ico=""  do="" view="">
+					<preperenc name="编辑器" ico=""  do="" view="com.view.system.perferenc.JFontChooser"/>
+		</preperenc>
+</preperences>
