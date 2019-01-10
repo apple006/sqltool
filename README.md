@@ -23,6 +23,12 @@
 # 使用
 1、配置自己的数据库类型 窗口>首选项>JDBC
 ![image](https://github.com/448697783/sqltool/blob/master/METADATA/20190110181636.png)
-2、选择
-填写名称（描述）->选择数据库类型->选择驱动->ip、端口、实例名、用户名、密码->pdm（可选填写）
+2、填写信息
+填写名称（描述）->选择数据库类型->选择驱动->ip、端口、实例名、用户名、密码->pdm（可选填写）->登陆
 ![image](https://raw.githubusercontent.com/448697783/sqltool/master/METADATA/20190110181846.png)
+3、加载表名、列名及pdm中关联信息
+点击刷新
+![image](https://raw.githubusercontent.com/448697783/sqltool/master/METADATA/20190110182011.png)
+4、执行
+打开新查询窗口->选择查询那个库->选择需要执行语句->点击执行语句查询
+![image](https://github.com/448697783/sqltool/blob/master/METADATA/20190110182116.png?raw=true)
