@@ -20,5 +20,9 @@
 4、sqlserver  
 5、redis  
 
-#使用
-1、配置自己的数据库类型
+# 使用
+1、配置自己的数据库类型 窗口>首选项>JDBC
+![image](https://github.com/448697783/sqltool/blob/master/METADATA/20190110181636.png)
+2、选择
+填写名称（描述）->选择数据库类型->选择驱动->ip、端口、实例名、用户名、密码->pdm（可选填写）
+![image](https://raw.githubusercontent.com/448697783/sqltool/master/METADATA/20190110181846.png)
