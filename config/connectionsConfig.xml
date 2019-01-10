@@ -1,5 +1,494 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <connections> 
- 
+    <connection> 
+        <name>root</name>  
+        <pdm/>  
+        <datatype>mysql</datatype>  
+        <url/>  
+        <ip>10.11.152.59</ip>  
+        <port>3306</port>  
+        <example>takeout</example>  
+        <driverClass>mysql</driverClass>  
+        <username>root</username>  
+        <password>dic*#9dc-dme58</password>  
+        <date>2016-2-23 18:15:06</date>  
+        <update>2018-11-22 16:05:47</update> 
+    </connection>  
+    <connection> 
+        <name>开发库</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.18.64.125</ip>  
+        <port>1521</port>  
+        <example>paytest</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>WALLET_JUNIOR_DEV</username>  
+        <password>wallet_junior_dev</password>  
+        <date>2016-12-19 23:03:16</date>  
+        <update>2018-3-28 10:59:08</update> 
+    </connection>  
+    <connection> 
+        <name>redis</name>  
+        <pdm/>  
+        <datatype>redis</datatype>  
+        <url/>  
+        <ip>192.168.46.137</ip>  
+        <port>6379</port>  
+        <example/>  
+        <driverClass/>  
+        <username/>  
+        <password/>  
+        <date>2016-12-20 0:46:14</date>  
+        <update>2017-4-17 18:02:39</update> 
+    </connection>  
+    <connection> 
+        <name>测试sohupay</name>  
+        <pdm>D:\\owncloud\开发组文档\系统文档\钱包\钱包开发文档\V3.1.8\wallet_3.1.8.pdm</pdm>  
+        <datatype>Oracle</datatype>  
+        <url></url>  
+        <ip>10.16.40.152</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>WALLET</username>  
+        <password>JdbcDZNauX5Z</password>  
+        <date>2016-12-22 13:51:21</date>  
+        <update>2019-1-10 18:20:47</update> 
+    </connection>  
+    <connection> 
+        <name>测试redis</name>  
+        <pdm/>  
+        <datatype>redis</datatype>  
+        <url/>  
+        <ip>10.11.152.59</ip>  
+        <port>6479</port>  
+        <example/>  
+        <driverClass>mysql</driverClass>  
+        <username/>  
+        <password>a*#sIYn$iP#Rvx&amp;*rEdIs$%^%z</password>  
+        <date>2016-12-22 14:08:06</date>  
+        <update>2019-1-10 14:52:55</update> 
+    </connection>  
+    <connection> 
+        <name>quartz</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.10.19.219</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>QUARTZ</username>  
+        <password>quartz</password>  
+        <date>2016-12-27 18:07:45</date>  
+        <update>2017-3-19 12:16:23</update> 
+    </connection>  
+    <connection> 
+        <name>测试quratz</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.10.19.219</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>QUARTZ</username>  
+        <password>quartz</password>  
+        <date>2016-12-28 14:40:48</date>  
+        <update>2018-9-6 11:08:44</update> 
+    </connection>  
+    <connection> 
+        <name>压力库aa</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.2.168.214</ip>  
+        <port>1521</port>  
+        <example>orcl</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>1</username>  
+        <password>wallet_test</password>  
+        <date>2016-12-28 17:11:31</date>  
+        <update>2016-12-28 17:50:05</update> 
+    </connection>  
+    <connection> 
+        <name>新生产灰度quarz</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.16.40.152</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>QUARTZ_GRAY</username>  
+        <password>JdbcDZNauX5Z</password>  
+        <date>2016-12-28 17:38:12</date>  
+        <update>2018-12-4 15:44:56</update> 
+    </connection>  
+    <connection> 
+        <name>新生产灰度quarz</name>  
+        <pdm>C:\Users\wanghonghui\Desktop\wallet_20161229.pdm</pdm>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.10.19.219</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>quartz_gray</username>  
+        <password>JdbcDZNauX5Z</password>  
+        <date>2016-12-28 17:38:12</date>  
+        <update>2017-5-2 11:22:10</update> 
+    </connection>  
+    <connection> 
+        <name>老测试sohupay</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.10.19.219</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>WALLET_TESTRUN</username>  
+        <password>wallet_testrun</password>  
+        <date>2016-12-28 17:39:12</date>  
+        <update>2018-9-11 15:20:35</update> 
+    </connection>  
+    <connection> 
+        <name>开发redis</name>  
+        <pdm/>  
+        <datatype>redis</datatype>  
+        <url/>  
+        <ip>192.168.64.224</ip>  
+        <port>6579</port>  
+        <example/>  
+        <driverClass>mysql</driverClass>  
+        <username/>  
+        <password>a*#sIYn$iP#Rvx&amp;*rEdIs$%^%z</password>  
+        <date>2017-1-5 22:19:23</date>  
+        <update>2018-3-5 10:04:50</update> 
+    </connection>  
+    <connection> 
+        <name>生产被库</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.11.157.164</ip>  
+        <port>1521</port>  
+        <example>FOCUSPAY</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>WALLET_QUERY#WALLET</username>  
+        <password>walletfocuspay</password>  
+        <date>2017-1-6 11:00:00</date>  
+        <update>2018-8-3 15:00:39</update> 
+    </connection>  
+    <connection> 
+        <name>173</name>  
+        <pdm/>  
+        <datatype>mysql</datatype>  
+        <url/>  
+        <ip>127.0.0.1</ip>  
+        <port>3307</port>  
+        <example>takeout</example>  
+        <driverClass>mysql</driverClass>  
+        <username>root</username>  
+        <password>x5</password>  
+        <date>2017-1-7 20:58:30</date>  
+        <update>2017-1-9 23:53:11</update> 
+    </connection>  
+    <connection> 
+        <name>公司orcl</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>192.168.17.144</ip>  
+        <port>1521</port>  
+        <example>orcl</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>WANGHONGHUI</username>  
+        <password>101985</password>  
+        <date>2017-1-16 15:28:28</date>  
+        <update>2017-2-20 10:53:46</update> 
+    </connection>  
+    <connection> 
+        <name>生产MQ</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>focuspay.db2.sohuno.com</ip>  
+        <port>1521</port>  
+        <example>focuspay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>MQ</username>  
+        <password>PJsjhf86M3daa</password>  
+        <date>2017-2-16 18:34:56</date>  
+        <update>2018-11-2 11:41:41</update> 
+    </connection>  
+    <connection> 
+        <name>新生产主库</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>wallet.db2.sohuno.com</ip>  
+        <port>1521</port>  
+        <example>wallet</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>WALLET</username>  
+        <password>wr9txF7LGlguzar</password>  
+        <date>2017-2-22 14:22:44</date>  
+        <update>2019-1-9 14:06:11</update> 
+    </connection>  
+    <connection> 
+        <name>新生产quartz</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>wallet.db2.sohuno.com</ip>  
+        <port>1521</port>  
+        <example>wallet</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>QUARTZ</username>  
+        <password>wr9txF7LGlguzar</password>  
+        <date>2017-8-22 14:22:44</date>  
+        <update>2018-9-14 16:42:26</update> 
+    </connection>  
+    <connection> 
+        <name>新生产主库(mq)</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.17.64.69</ip>  
+        <port>1521</port>  
+        <example>wallet</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>MQ</username>  
+        <password>wr9txF7LGlguzar</password>  
+        <date>2017-2-22 14:22:54</date>  
+        <update>2018-10-22 18:10:10</update> 
+    </connection>  
+    <connection> 
+        <name>新生产主库(mq)</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.17.64.69</ip>  
+        <port>1521</port>  
+        <example>wallet</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>mq</username>  
+        <password>wr9txF7LGlguzar</password>  
+        <date>2017-2-22 14:22:54</date>  
+        <update>2017-3-28 15:29:30</update> 
+    </connection>  
+    <connection> 
+        <name>主测试库redis</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>192.168.46.95</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>QUARTZ_JUNIOR_PRODUCT</username>  
+        <password>quartz_junior_product</password>  
+        <date>2017-3-2 20:48:24</date>  
+        <update>2017-7-13 10:58:15</update> 
+    </connection>  
+    <connection> 
+        <name>10.11.152.34</name>  
+        <pdm/>  
+        <datatype>redis</datatype>  
+        <url/>  
+        <ip>10.11.152.34</ip>  
+        <port>6379</port>  
+        <example/>  
+        <driverClass>oracle11g</driverClass>  
+        <username/>  
+        <password/>  
+        <date>2017-3-3 12:37:15</date>  
+        <update>2017-5-10 18:03:04</update> 
+    </connection>  
+    <connection> 
+        <name>新生产备库</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>walletro.db2.sohuno.com</ip>  
+        <port>1521</port>  
+        <example>wallet</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>WALLET_QUERY#WALLET</username>  
+        <password>JdbcDZNauX5Z</password>  
+        <date>2017-3-28 14:48:24</date>  
+        <update>2019-1-10 10:12:03</update> 
+    </connection>  
+    <connection> 
+        <name>新生产redis主库</name>  
+        <pdm/>  
+        <datatype>redis-sentinelPool</datatype>  
+        <url/>  
+        <ip>10.17.4.14:26379;10.11.152.34:26379;10.11.152.35:26379</ip>  
+        <port>6379</port>  
+        <example/>  
+        <driverClass/>  
+        <username>walletredis</username>  
+        <password>a*#sIYn$iP#Rvx&amp;*rEdIs$%^%z</password>  
+        <date>2017-3-29 17:05:55</date>  
+        <update>2018-11-16 11:38:35</update> 
+    </connection>  
+    <connection> 
+        <name>new Connection</name>  
+        <pdm/>  
+        <datatype/>  
+        <url/>  
+        <ip/>  
+        <port/>  
+        <example/>  
+        <driverClass/>  
+        <username/>  
+        <password/>  
+        <date>2017-5-9 16:22:17</date>  
+        <update>2017-5-9 16:22:17</update> 
+    </connection>  
+    <connection> 
+        <name>10.10.19.219</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.10.19.219</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>PAYCENTER</username>  
+        <password>paycenter</password>  
+        <date>2017-5-10 16:47:11</date>  
+        <update>2017-5-10 18:03:17</update> 
+    </connection>  
+    <connection> 
+        <name>生产灰度redis</name>  
+        <pdm/>  
+        <datatype>redis</datatype>  
+        <url/>  
+        <ip>192.168.64.224</ip>  
+        <port>6379</port>  
+        <example/>  
+        <driverClass/>  
+        <username/>  
+        <password/>  
+        <date>2017-6-1 15:20:28</date>  
+        <update>2017-8-15 19:17:19</update> 
+    </connection>  
+    <connection> 
+        <name>paycenter</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.16.40.152</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>PAYCENTER</username>  
+        <password>paycenter</password>  
+        <date>2017-6-8 10:38:39</date>  
+        <update>2018-12-17 11:36:45</update> 
+    </connection>  
+    <connection> 
+        <name>生产paycenter</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>focuspay.db2.sohuno.com</ip>  
+        <port>1521</port>  
+        <example>focuspay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>PAYCENTER</username>  
+        <password>JdbcDZNauX5Z</password>  
+        <date>2017-6-8 10:28:39</date>  
+        <update>2018-12-17 18:18:32</update> 
+    </connection>  
+    <connection> 
+        <name>网关生产</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.11.165.150</ip>  
+        <port>1521</port>  
+        <example>peak</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>PEAKCS</username>  
+        <password>zcMNc4yNaF4eq</password>  
+        <date>2017-7-24 11:44:32</date>  
+        <update>2017-7-24 11:47:55</update> 
+    </connection>  
+    <connection> 
+        <name>网关测试</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>192.168.46.95</ip>  
+        <port>1521</port>  
+        <example>sohupay</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>PEAKCS</username>  
+        <password>peakcs</password>  
+        <date>2017-7-24 11:45:34</date>  
+        <update>2017-7-24 11:47:48</update> 
+    </connection>  
+    <connection> 
+        <name>zabbix</name>  
+        <pdm/>  
+        <datatype>Oracle</datatype>  
+        <url/>  
+        <ip>10.18.64.125</ip>  
+        <port>1521</port>  
+        <example>paytest</example>  
+        <driverClass>oracle11g</driverClass>  
+        <username>PAYTEST</username>  
+        <password>HCK5kaM+42JEk+h</password>  
+        <date>2017-9-4 12:34:46</date>  
+        <update>2018-9-6 19:16:23</update> 
+    </connection>  
+    <connection> 
+        <name>红包压力测试redis</name>  
+        <pdm/>  
+        <datatype>redis</datatype>  
+        <url/>  
+        <ip>10.11.152.38</ip>  
+        <port>22001</port>  
+        <example/>  
+        <driverClass>mysql</driverClass>  
+        <username/>  
+        <password>redistest</password>  
+        <date>2017-10-25 16:01:37</date>  
+        <update>2018-3-5 10:09:49</update> 
+    </connection>  
+    <connection> 
+        <name>redis北研中心生产库</name>  
+        <pdm/>  
+        <datatype>redis-sentinelPool</datatype>  
+        <url/>  
+        <ip>m.y.redis.sohucs.com</ip>  
+        <port>22037</port>  
+        <example/>  
+        <driverClass>redis</driverClass>  
+        <username/>  
+        <password>5a42bc6e2dd5c011587127849878a606</password>  
+        <date>2017-11-6 14:36:25</date>  
+        <update>2018-11-16 11:38:31</update> 
+    </connection>  
+    <connection> 
+        <name>redis北研钱包生产库</name>  
+        <pdm/>  
+        <datatype>redis</datatype>  
+        <url/>  
+        <ip>mb.y.redis.sohucs.com</ip>  
+        <port>22932</port>  
+        <example/>  
+        <driverClass>redis</driverClass>  
+        <username/>  
+        <password>5a42bc6e2dd5c011587127849878a606</password>  
+        <date>2017-11-30 11:13:42</date>  
+        <update>2018-11-16 11:38:45</update> 
+    </connection> 
 </connections>
